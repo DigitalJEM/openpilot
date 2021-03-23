@@ -137,19 +137,7 @@ class kegman_conf():
       if "AutoHold" not in self.config:
         self.config.update({"AutoHold":"1"})
         self.element_updated = True
-	
-      if "cameraOffset" not in self.config:
-	    self.config.update({"cameraOffset":"0.05"})
-	    self.element_updated = True
-
-	  if "wheelTouchSeconds" not in self.config:
-	  	self.config.update({"wheelTouchSeconds":"600"})
-	  	self.element_updated = True
-	  	
-	  if "STOPPING_DISTANCE" not in self.config:
-	  	self.config.update({"STOPPING_DISTANCE":"2.5"})
-	  	self.element_updated = True
-	  		
+		  		
       if self.element_updated:
         print("updated")
         self.write_config(self.config)
