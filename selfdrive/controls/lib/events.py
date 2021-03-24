@@ -457,7 +457,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
       "** Lane Keep Assist is OFF **",
       "",
       AlertStatus.normal, AlertSize.small,
-      Priority.LOW, VisualAlert.steerRequired, AudibleAlert.chimeError, .0, .1, .1),
+      Priority.LOW, VisualAlert.steerRequired, AudibleAlert.chimeError, 1., .1, 1.),
   },
 
   EventName.steerSaturated: {
