@@ -153,7 +153,7 @@ class kegman_conf():
                      "steerRatio":"-1", "steerRateCost":"-1", "slowOnCurves":"0", "Kf":"-1", \
                      "sR_boost":"0", "sR_BP0":"0", "sR_BP1":"0", "sR_time":"1", \
                      "ALCnudgeLess":"1", "ALCminSpeed":"20.1168", "ALCtimer":"2.0", "CruiseDelta":"8", \
-                     "CruiseEnableMin":"32", "epsModded": "0"}
+                     "CruiseEnableMin":"32", "epsModded":"0", "STOPPING_DISTANCE":"2.5"}
 
 
       self.write_config(self.config)
