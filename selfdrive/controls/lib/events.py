@@ -226,7 +226,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
       "Welcome to AutoCopilot",
       "0.8.1",
       AlertStatus.normal, AlertSize.mid,
-      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 5.),
+      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 7.),
   },
 
   EventName.startupMaster: {
@@ -234,7 +234,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
       "Welcome to AutoCopilot",
       "0.8.1",
       AlertStatus.userPrompt, AlertSize.mid,
-      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 5.),
+      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 7.),
   },
 
   EventName.startupNoControl: {
@@ -258,7 +258,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
       "Welcome to AutoCopilot",
       "v0.8.1 - Grey Panda edition",
       AlertStatus.userPrompt, AlertSize.mid,
-      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 5.),
+      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 7.),
   },
 
   EventName.invalidLkasSetting: {
