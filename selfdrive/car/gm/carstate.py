@@ -19,7 +19,7 @@ class CarState(CarStateBase):
     self.prev_lka_button = 0
     self.lka_button = 0
     self.distance_button = 0
-    self.follow_level = 2
+    self.follow_level = 3
     self.lkMode = True
     self.autoHold = False
     self.autoHoldActive = False
